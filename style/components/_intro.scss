@@ -7,37 +7,37 @@
     &__content{
         max-width: 640px;
         margin-top: 74px;
-        &-title{
+        &-title {
             font-weight: 500;
             font-size: 40px;
             text-transform: uppercase;
         }
-        &-subtitle{
+        &-subtitle {
             font-weight: 300;
             font-size: 20px;
             margin-top: 10px;
             margin-bottom: 40px;
+
             color: #454F5B;
         }
         &-button{
+            color: #454f5b;
             font-weight: 700;
             font-size: 16px;
             color: white;
             text-decoration: none;
             background-color:  #58B741;
             padding: 18px 18px 18px 18px;
-            border-radius: 4px;
-            
-            
+            border-radius: 4px;     
         }
     }
-    &__advantages{
+    &__advantages {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
-        &-card{
+        &-card {
             width: 350px;
-            background-color: #F9FAFB;
+            background-color: #f9fafb;
             display: flex;
             align-items: center;
             padding-top: 31px;
@@ -46,20 +46,20 @@
             &:last-child{
                 border-bottom: 2px solid #58B741;
             }
-            &-pic{
+            &-pic {
                 margin-left: 41px;
             }
-            &-content{
+            &-content {
                 margin-left: 30px;
-                &-title{
+                &-title {
                     font-weight: 400;
                     font-size: 20px;
                 }
-                &-subtitle{
+                &-subtitle {
                     font-weight: 300;
                     font-size: 16px;
                     text-decoration: none;
-                    color: #454F5B;
+                    color: #454f5b;
                     margin-top: 4px;
                 }
             }

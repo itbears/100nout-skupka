@@ -53,6 +53,7 @@ body {
   color: #454F5B;
 }
 .intro__content-button {
+  color: #454f5b;
   font-weight: 700;
   font-size: 16px;
   color: white;
@@ -72,7 +73,7 @@ body {
 }
 .intro__advantages-card {
   width: 350px;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +101,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   text-decoration: none;
-  color: #454F5B;
+  color: #454f5b;
   margin-top: 4px;
 }
 
