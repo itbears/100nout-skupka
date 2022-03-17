@@ -211,6 +211,9 @@ body {
   color: #454F5B;
 }
 
+.location {
+  margin-top: 122px;
+}
 .location__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,7 +221,29 @@ body {
   background-color: #F6F6F6;
 }
 .location__contacts {
+  margin-left: 60px;
+  margin-top: 67px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.location__contacts-info {
+  margin-left: 60px;
+  max-width: 240px;
+}
+.location__contacts-info-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #BCBCBC;
+  text-transform: uppercase;
+}
+.location__contacts-info-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
