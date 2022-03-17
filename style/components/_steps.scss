@@ -27,6 +27,7 @@
             height: 1px;
             position: absolute;
             top: 35px;
+            z-index: -1;
         }
         &-item {
             &-num {
@@ -59,6 +60,31 @@
                 line-height: 18px;
                 color: #454f5b;
                 max-width: 225px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .steps {
+        &__title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        &__list {
+            &::after {
+                display: none;
+            }
+            flex-direction: column;
+            &-item {
+                margin-bottom: 30px;
+                &-text {
+                    max-width: 100%;
+                }
             }
         }
     }

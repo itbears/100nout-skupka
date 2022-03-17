@@ -29,3 +29,25 @@
         }
     }
 }
+
+@media screen and (max-width: 1140px) {
+    .condition {
+        &__title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        &__cards {
+            flex-direction: column;
+            &-card {
+                max-width: none;
+                margin-bottom: 30px;
+                &-pic {
+                    max-width: 100%;
+                }
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}

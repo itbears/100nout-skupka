@@ -76,3 +76,41 @@
         }
     }
 }
+
+@media screen and (max-width: 820px) {
+    .footer {
+        &__bottom {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            &-link {
+                margin-bottom: 20px;
+            }
+        }
+        &__social {
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer {
+        &__menu {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+        &__logo {
+            margin-bottom: 20px;
+        }
+        &__nav {
+            &-list {
+                flex-wrap: wrap;
+                &-item {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
