@@ -28,6 +28,8 @@ section {
 }
 a {
     text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
 }
 .line-hover {
     &::after {
