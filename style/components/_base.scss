@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background-color: none;
+}
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+}
