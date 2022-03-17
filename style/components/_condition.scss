@@ -1,0 +1,25 @@
+.condition{
+    margin-top: 110px;
+    &__title{
+        font-weight: 500;
+        font-size: 35px;
+    }
+    &__cards{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        &-card{
+            max-width: 360px;
+            &-title{
+                margin-top: 20px;
+                font-weight: 500;
+                font-size: 18px;
+            }
+            &-subtitle{
+                font-weight: 400;
+                font-size: 18px;
+                color: #454F5B;
+            }
+        }
+    }
+}

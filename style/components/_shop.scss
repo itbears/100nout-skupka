@@ -1,0 +1,32 @@
+.shop{
+    margin-top: 110px;
+    background-color: #F6F6F6;
+    &__wrapper{
+        display: flex;
+        padding-top: 76px;
+    }
+    &__content{
+        margin-left: 103px;
+        &-title{
+            font-weight: 500;
+            font-size: 40px;
+            margin-top: 5px;
+        }
+        &-subtitle{
+            font-weight: 400;
+            font-size: 16px;
+            color: #959EAD;
+            margin-top: 13px;
+            margin-bottom: 27px;
+        }
+        &-button{
+            font-weight: 500;
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+            background-color: #58B741;
+            padding: 11px 14px 11px 14px;
+            border-radius: 4px;
+        }
+    }
+}
