@@ -1,0 +1,144 @@
+.contacts {
+    .container {
+        display: flex;
+    }
+    &__content {
+        padding-right: 100px;
+        width: 50%;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 41px;
+        color: #161d25;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        color: #454f5b;
+        margin-top: 15px;
+        margin-bottom: 105px;
+        max-width: 485px;
+    }
+
+    &__list {
+        margin-top: 30px;
+    }
+
+    &__list-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &-svg {
+            margin-right: 30px;
+            width: 33px;
+        }
+        &-text {
+            display: flex;
+            flex-direction: column;
+            &-title {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #161d25;
+                margin-bottom: 5px;
+            }
+            &-subtitle {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #5a7184;
+                &.line-hover {
+                    max-width: 150px;
+                    &::after {
+                        background-color: #5a7184;
+                    }
+                }
+            }
+        }
+    }
+
+    &__form {
+        width: 50%;
+        padding-top: 50px;
+        .b24-form-header-padding {
+            display: none;
+        }
+        .b24-form-content {
+            padding-top: 0;
+        }
+        .b24-form {
+            padding-left: 100px;
+            border-left: 1px solid #e5e5e5;
+        }
+        .b24-form-control-layout:first-child {
+            margin-top: 0;
+            margin-bottom: 10px;
+            & div {
+                font-size: 28px;
+                line-height: 34px;
+                letter-spacing: 0.2px;
+                color: #161d25;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+        .b24-form-control-layout:first-child {
+            margin-top: 0;
+            margin-bottom: 30px;
+            & + .b24-form-control-layout div {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #5a7184;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+        .b24-form-wrapper.b24-form-border-bottom {
+            border: none;
+        }
+        .b24-form-btn:hover {
+            background-color: #58b741;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contacts {
+        &__title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 50px;
+        }
+        &__content {
+            padding-right: 0;
+            width: 100%;
+        }
+        &__form {
+            width: 100%;
+            .b24-form-content {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .b24-form {
+                padding-left: 0;
+                border: none;
+            }
+        }
+        .container {
+            flex-direction: column;
+        }
+    }
+}

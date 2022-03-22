@@ -1,24 +1,52 @@
-.condition{
+.condition {
     margin-top: 110px;
-    &__title{
+    &__title {
         font-weight: 500;
         font-size: 35px;
+        line-height: 41px;
+        color: #161d25;
     }
-    &__cards{
+    &__cards {
         margin-top: 30px;
         display: flex;
         justify-content: space-between;
-        &-card{
+        &-card {
             max-width: 360px;
-            &-title{
-                margin-top: 20px;
+            &-title {
+                margin-top: 25px;
                 font-weight: 500;
                 font-size: 18px;
+                margin-bottom: 20px;
+                line-height: 21px;
+                color: #000000;
             }
-            &-subtitle{
+            &-subtitle {
                 font-weight: 400;
                 font-size: 18px;
-                color: #454F5B;
+                line-height: 21px;
+                color: #454f5b;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .condition {
+        &__title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        &__cards {
+            flex-direction: column;
+            &-card {
+                max-width: none;
+                margin-bottom: 30px;
+                &-pic {
+                    max-width: 100%;
+                }
+                br {
+                    display: none;
+                }
             }
         }
     }

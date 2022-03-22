@@ -1,34 +1,33 @@
-.header{
-    margin-top: 25px;
-    &__wrapper{
+.header {
+    margin-top: 20px;
+    &__wrapper {
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
-    &__naming{
-        display: flex;
-        &-name{
-            font-weight: 400;
-            font-size: 23.0769px;
-            color: #454F5B;
-            margin-left: 8px;
-            margin-top: 5px;
-        }
-    }
-    &__nav{
-        &-list{
+    &__nav {
+        &-list {
             display: flex;
-            &-item{
+            &-item {
                 margin-right: 27px;
-                &:last-child{
+                &:last-child {
                     margin-right: 0px;
                 }
-                &-link{
+                &-link {
                     text-decoration: none;
                     font-weight: 400;
                     font-size: 16px;
-                    color: #454F5B;
+                    color: #454f5b;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        &__nav {
+            display: none;
         }
     }
 }

@@ -19,6 +19,35 @@ button {
     max-width: 1160px;
     margin: auto;
 }
-body{
-    font-family: 'Rubik', sans-serif;
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+section {
+    margin-bottom: 110px;
+}
+a {
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+}
+.line-hover {
+    &::after {
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: #454f5b;
+        display: block;
+        transition: width 0.3s ease;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
